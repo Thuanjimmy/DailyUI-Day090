@@ -1,0 +1,70 @@
+body {
+  background-color: #1b1717;
+  font-family: ubuntu;
+  margin: 25px 50px;
+}
+p {
+  margin-bottom: 0;
+}
+h6,
+h5 {
+  margin-bottom: 0;
+}
+.bold {
+  font-weight: 900;
+}
+p {
+  font-size: 0.85rem;
+}
+.box {
+  width: 420px;
+  height: 700px;
+  background-color: #dddddd;
+  border-radius: 10px;
+  border: white 10px solid;
+  margin: 35px auto;
+  padding: 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.test {
+  display: inline;
+}
+
+.orange {
+  color: orange;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.tab {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: #1b1717 2px 2px;
+  margin: 25px;
+}
+.left {
+  text-align: left;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.center {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto 40px;
+}
+.right {
+  position: relative;
+  left: 270px;
+}
